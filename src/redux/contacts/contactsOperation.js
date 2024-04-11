@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
+axios.defaults.baseURL = 'https://661557e1b8b8e32ffc7aa79b.mockapi.io';
 /*
  * GET @ /contacts
  */
